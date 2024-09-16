@@ -23,15 +23,22 @@ const WhyUsSection = () => {
                         
                    
 
-                    <p className="text-gray-700 mb-4">
-                        At Alma Matters, we provide unparalleled support and resources to help you achieve your academic and career goals. Our dedicated team of professionals is committed to your success, offering personalized guidance and a wealth of opportunities.
+                    <p className="text-gray-700 mb-4 text-justify">
+                   AlmaMatters offers a comprehensive platform for alumni, students, and colleges to connect, collaborate, and grow together. Our unique features make it easy for users to build a strong network, share knowledge, and access opportunities within the community. Here’s why you should choose AlmaMatters:
                     </p>
-                    <ul className="list-disc list-inside text-gray-700">
-                        <li>Expert faculty and staff</li>
-                        <li>Comprehensive academic programs</li>
-                        <li>State-of-the-art facilities</li>
-                        <li>Strong industry connections</li>
-                        <li>Vibrant campus life</li>
+                    <ul className="list-disc list-inside text-gray-700 text-justify ">
+                        <li> 
+                            <span className="font-medium text-primaryBlue">Network Building:</span>  
+                            Connect alumni, current students, and colleges for professional networking and mentorship opportunities.
+
+</li>
+                        <li><span className="font-medium text-primaryBlue">Customizable College Profiles: </span> Allow colleges to create and manage their own profiles, showcasing their unique offerings and events.
+                        </li>
+                        <li>
+                        <span className="font-medium text-primaryBlue">Job and Internship Listings:</span> Enable alumni and students to post and search for job and internship opportunities within the network.
+</li>
+                        <li>
+                        <span className="font-medium text-primaryBlue">Communication Tools: </span>Provide messaging and discussion forums for seamless interaction between alumni, students, and college administrators.</li>
                     </ul>
                 </div>
                

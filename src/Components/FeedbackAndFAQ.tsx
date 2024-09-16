@@ -83,8 +83,8 @@ const FeedbackAndFAQ = () => {
 
     const faqs = [
         {
-            question: "What programs do you offer?",
-            answer: "We offer a wide range of programs in various fields including science, technology, engineering, and more.",
+            question: "How do I create an account on the platform?",
+            answer: "To create an account, click on the “Sign Up” button on the homepage. You can register as a student, alumni, or college administrator. Follow the prompts to enter your details and verify your email address to complete the registration process",
         },
         {
             question: "How can I apply?",

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
+import Image from "next/image";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
                 <Link href="/team" className="text-primaryBlue hover:text-gray-400 font-semibold">Team</Link>
             </div>
             <div className="text-black text-xl font-bold">
-                Alma Matters
+                <Image src="/logo.png" alt="logo" width={250} height={50} />
             </div>
             <div className="hidden md:flex space-x-4">
                 <Link href="/login" className="text-white hover:text-primaryWhite px-2 py-1 rounded-md font-bold bg-primaryBlack">Login</Link>
