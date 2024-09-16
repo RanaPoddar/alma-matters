@@ -1,29 +1,29 @@
 "use client";
 import Image from "next/image";
-import {
-  RadialBarChart,
-  RadialBar,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+// import {
+//   RadialBarChart,
+//   RadialBar,
+//   Legend,
+//   ResponsiveContainer,
+// } from "recharts";
 
-const data = [
-  {
-    name: "Total",
-    count: 106,
-    fill: "white",
-  },
-  {
-    name: "Girls",
-    count: 53,
-    fill: "#FAE27C",
-  },
-  {
-    name: "Boys",
-    count: 53,
-    fill: "#C3EBFA",
-  },
-];
+// const data = [
+//   {
+//     name: "Total",
+//     count: 106,
+//     fill: "white",
+//   },
+//   {
+//     name: "Girls",
+//     count: 53,
+//     fill: "#FAE27C",
+//   },
+//   {
+//     name: "Boys",
+//     count: 53,
+//     fill: "#C3EBFA",
+//   },
+// ];
 
 const CountChart = () => {
   // return (

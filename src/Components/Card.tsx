@@ -1,10 +1,18 @@
 import Image from 'next/image' 
-
+import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
-const Card = (props :any) => {
+interface CardProps {
+    img: string;
+    name: string;
+    position: string;
+    department: string;
+    email: string;
+  }
+
+  const Card: React.FC<CardProps> = (props) => {
 
     return (
     <div className="">
