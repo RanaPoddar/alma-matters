@@ -1,6 +1,5 @@
 "use client"
 import Image from 'next/image';
-import FeaturesImg from '../../../assets/Features.png';
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
@@ -19,7 +18,7 @@ const router = useRouter();
             </div>
             {/* graphics div */}
             <div className='mt-4'>
-                <Image src={FeaturesImg} alt="Hero Image" width={500} height={500} />
+                <Image src="/Features.png" alt="Hero Image" width={500} height={500} />
             </div>
 
             </div>
